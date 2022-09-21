@@ -10,8 +10,14 @@ t_LPAR = r'\('
 t_RPAR = r'\)'
 t_LSQU = r'\['
 t_RSQU = r'\]'
+t_LN = r'ln'
+t_LOG = r'log'
+t_PI = r'\π'
+t_EULER = r'e'
 t_POWER = r'\^'
 t_ignore = ' \t'
+t_PILATIN = 'pi'
+t_SQRT = r'√'
 def t_error(t):
     print("Illegal character: " + t.value[0])
     t.lexer.skip(1)

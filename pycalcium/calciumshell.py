@@ -1,6 +1,6 @@
 from sys import argv, exit
 from calcium import Calcium
-version = '1.1'
+version = '1.1.1'
 
 def shell():
     print("Welcome to Calcium Shell v" + version)
@@ -8,10 +8,13 @@ def shell():
     while True:
         inp = input("> ").lower()
         if inp == "exit":
+            print("")
             exit(0)
         elif inp == "bye":
+            print("")
             exit(0)
         elif inp == "quit":
+            print("")
             exit(0)
         else:
             eq = Calcium(inp)
