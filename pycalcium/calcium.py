@@ -4,7 +4,7 @@ from tokens import *
 class Calcium:
     def __init__(self, equation : str):
         if type(equation) != str:
-            raise Exception("The Equation must be a String!")
+            raise TypeError("The Equation must be a String!")
         self.eq = equation
         self.lexer = lex.lex()
         self.parser = yacc.yacc(debug=False, write_tables=False)
