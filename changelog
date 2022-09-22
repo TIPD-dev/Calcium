@@ -1,0 +1,39 @@
+# Calcium 1.4 - 9/22/2022
+
+### Constants
+* Constant: Feigenbaum α
+* Constant: Feigenbaum δ
+* Constant: Apery ζ
+* Constant: Euler-Mascheroni γ
+* Constant: Conway λ
+* Constant: Glaisher-Kinkelin A
+* Constant: Khinchin k
+### Large Numbers
+* googol
+* googolplex
+
+# Calcium 1.3 - 9/16/2022
+
+**MAJOR UPDATE**
+
+* Added square root.
+* Added pi and euler's number
+* Logarithm and Natural Logarithm
+* Fixed many bugs.
+
+# Calcium 1.2 - 7/17/2022
+
+* Fixed a lot of bugs
+* Added a mini shell for testing Calcium
+
+# Calcium 1.1 - 7/15/2022
+
+Bracket support (Parenthesis & Square Brackets)
+
+# Calcium 1.0 - 7/13/2022
+
+**First stable version.** Added exponentiation and floating-point number support.
+
+# Calcium 0.1 - 7/6/2022
+
+**First version.** Basic arithmetic (Addition, Subtraction, Multiplication, Division).

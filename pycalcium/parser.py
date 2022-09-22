@@ -60,6 +60,38 @@ def p_euler(p):
     'factor : EULER'
     from math import e
     p[0] = e
+def p_golden_ratio(p):
+    'factor : GOLDEN'
+    p[0] = 1.6180339887498948482
+def p_apery_constant(p):
+    'factor : Z'
+    p[0] = 1.2020569
+def p_feigenbaum_alpha(p):
+    'factor : ALPHA'
+    p[0] = 2.5029
+def p_feigenbaum_delta(p):
+    'factor : DELTA'
+    p[0] = 4.6692
+def p_euler_mascheroni_constant(p):
+    'factor : GAMMA'
+    p[0] = 0.57721
+def p_conway_constant(p):
+    'factor : LAMBDA'
+    p[0] = 1.30357
+def p_khinchin_constant(p):
+    'factor : K'
+    p[0] = 2.6854520010
+def p_glaisher_kinkelin_constant(p):
+    'factor : A'
+    p[0] = 1.2824271291
+
+#Large Numbers
+def p_googol(p):
+    'factor : GOOGOL'
+    p[0] = 10 ** 100
+def p_googolplex(p):
+    'factor : GOOGOLPLEX'
+    p[0] = 10 ** (10 ** 100)
 
 #Calculus
 def p_logarithm(p):
