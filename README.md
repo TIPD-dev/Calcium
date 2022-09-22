@@ -5,7 +5,7 @@ PLY is used for the parser and lexer. It is the CPython implementation of Lex an
 
 Calcium consits of a Python library and a Shell. Everything is done in the Calcium Library as it manages the parser and lexer. It will be available on PIP for everyone.
 
-The change log can be found in this folder (File called 'changelog').
+The change log can be found in this folder (File called **'changelog'**).
 
 ### Calcium Shell
 
