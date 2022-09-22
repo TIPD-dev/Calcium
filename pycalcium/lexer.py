@@ -1,6 +1,6 @@
 #The Lexer
 import ply.lex as lex
-from tokens import *
+from .tokens import *
 
 t_ADD = r'\+'
 t_SUB = r'-'
